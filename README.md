@@ -77,3 +77,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Description
+
+This is an instagram like image web application built mostly using the features provided natively by Laravel Framework.
+Dependencies:
+ - PHP v7.4.5
+ - Composer v1.10.5
+ - Laravel Installer v3.0.1
+ - Laravel Telescope v3.3.1
+ - Laravel ui v^2.0
+ - MySQL v8.0.19
+
+ Features:
+ - Users can register and Login
+ - Every User will have a profile to which they can upload Posts
+ - Anyone can view Profiles but cannot edit or add posts
+ - Only Users to whom the Profile Belongs to can Edit their profile and Add New Posts
+ - Users can Follow Other Profiles
+ - User Feed Page allows user to view posts from profiles that are being followed by the User
+ - Posts will have captions and an Image
